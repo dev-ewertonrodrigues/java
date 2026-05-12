@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Java.iml" filepath="$PROJECT_DIR$/.idea/Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/repositorios/exercicios/exercicios.iml" filepath="$PROJECT_DIR$/repositorios/exercicios/exercicios.iml" />
+      <module fileurl="file://$PROJECT_DIR$/repositorios/primeiro_projeto/primeiro_projeto.iml" filepath="$PROJECT_DIR$/repositorios/primeiro_projeto/primeiro_projeto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/repositorios/variaveis_tiposprimitivos/variaveis_tiposprimitivos.iml" filepath="$PROJECT_DIR$/repositorios/variaveis_tiposprimitivos/variaveis_tiposprimitivos.iml" />
+    </modules>
+  </component>
+</project>
