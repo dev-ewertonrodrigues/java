@@ -18,6 +18,6 @@ public class ImpostoDeRenda {
 
         Scanner scanner = new java.util.Scanner(System.in);
 
-        System.out.println("");
+        System.out.println("Digite o valor do Salário: ");
     }
 }
