@@ -2,7 +2,7 @@
 //      A seguir, determine qual o quadrante ao qual pertence o ponto, ou se está sobre um dos eixos cartesianos ou na origem (x = y = 0).
 //      Se o ponto estiver na origem, escreva a mensagem “Origem”.
 //      Se o ponto estiver sobre um dos eixos escreva “Eixo X” ou “Eixo Y”, conforme for a situação.
-//      Q1 = X>0 e Y>0 / Q2 = X>0 e Y <0 / Q3 = X<0 e Y<0 / Q4 = X<0 e Y>0
+//      Q1 = X>0 e Y>0 / Q2 = X>0 e Y <0 / Q3 = X<0 e Y<0 / Q4 = X<0 e Y>0 - Sentido Horário
 
 import java.util.Scanner;
 
