@@ -18,6 +18,23 @@ public class ImpostoDeRenda {
 
         Scanner scanner = new java.util.Scanner(System.in);
 
-        System.out.println("");
+        System.out.println("Informe o salário do contribuinte: ");
+        double salary = scanner.nextDouble();
+
+        if (salary >= 0.00 && salary <= 2000.0) {
+            System.out.println("ISENTO");
+        } else if (salary >=2000.01 && salary <= 3000.00) {
+            double taxation8 = (salary - 2000.0) * ( 8 / 100.0 );
+            System.out.printf(" O valor pago de impostos será: R$ %.2f%n ", taxation8);
+        } else if (salary >= 3000.01 && salary <= 4500.00) {
+            double taxation8 = 1000 * (8 / 100.0);
+            double taxation18 = ((salary - 3000.00) * ( 18 / 100.0)) + taxation8;
+            System.out.printf(" O valor pago de impostos será: R$ %.2f%n ", taxation18);
+        } else if (salary >= 4500.01) {
+            double taxation8 = 1000 * (8 / 100.0);
+            double taxation18 = 1500 * (18 / 100.0);
+            double taxation28 = ((salary - 4500.00) * (28 / 100.0)) + taxation8 + taxation18;
+            System.out.printf(" O valor pago de impostos será: R$%.2f%n ", taxation28);
+        }
     }
 }
