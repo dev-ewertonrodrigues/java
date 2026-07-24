@@ -1,6 +1,8 @@
+package estruturas_repeticao;
+
 import java.util.Scanner;
 
-public class testes {
+public class sequenciaFibonacci {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Digite a quantidade de termos: ");
@@ -21,3 +23,4 @@ public class testes {
         scanner.close();
     }
 }
+
